@@ -1,0 +1,169 @@
+@keyframes text-flicker-in-glow {
+    0% {
+      opacity: 0;
+    }
+    10% {
+      opacity: 0;
+      text-shadow: none;
+    }
+    10.1% {
+      opacity: 1;
+      text-shadow: none;
+    }
+    10.2% {
+      opacity: 0;
+      text-shadow: none;
+    }
+    20% {
+      opacity: 0;
+      text-shadow: none;
+    }
+    20.1% {
+      opacity: 1;
+      text-shadow: 0 0 30px rgba(255, 255, 255, 0.25);
+    }
+    20.6% {
+      opacity: 0;
+      text-shadow: none;
+    }
+    30% {
+      opacity: 0;
+      text-shadow: none;
+    }
+    30.1% {
+      opacity: 1;
+      text-shadow: 0 0 30px #2400ff, 0 0 60px #7e2bd9, 0 0 110px #fc78ff;
+    }
+    30.5% {
+      opacity: 1;
+      text-shadow: 0 0 30px #2400ff, 0 0 60px #7e2bd9, 0 0 110px #fc78ff;
+    }
+    30.6% {
+      opacity: 0;
+      text-shadow: none;
+    }
+    45% {
+      opacity: 0;
+      text-shadow: none;
+    }
+    45.1% {
+      opacity: 1;
+      text-shadow: 0 0 30px #2400ff, 0 0 60px #7e2bd9, 0 0 110px #fc78ff;
+    }
+    50% {
+      opacity: 1;
+      text-shadow: 0 0 30px #2400ff, 0 0 60px #7e2bd9, 0 0 110px #fc78ff;
+    }
+    55% {
+      opacity: 1;
+      text-shadow: 0 0 30px #2400ff, 0 0 60px #7e2bd9, 0 0 110px #fc78ff;
+    }
+    55.1% {
+      opacity: 0;
+      text-shadow: none;
+    }
+    57% {
+      opacity: 0;
+      text-shadow: none;
+    }
+    57.1% {
+      opacity: 1;
+      text-shadow: 0 0 30px #2400ff, 0 0 60px #7e2bd9, 0 0 110px #fc78ff;
+    }
+    60% {
+      opacity: 1;
+      text-shadow: 0 0 30px #2400ff, 0 0 60px #7e2bd9, 0 0 110px #fc78ff;
+    }
+    60.1% {
+      opacity: 0;
+      text-shadow: none;
+    }
+    65% {
+      opacity: 0;
+      text-shadow: none;
+    }
+    65.1% {
+      opacity: 1;
+      text-shadow: 0 0 30px #2400ff, 0 0 60px #7e2bd9, 0 0 110px #fc78ff;
+    }
+    75% {
+      opacity: 1;
+      text-shadow: 0 0 30px #2400ff, 0 0 60px #7e2bd9, 0 0 110px #fc78ff;
+    }
+    75.1% {
+      opacity: 0;
+      text-shadow: none;
+    }
+    77% {
+      opacity: 0;
+      text-shadow: none;
+    }
+    77.1% {
+      opacity: 1;
+      text-shadow: 0 0 30px #2400ff, 0 0 60px #7e2bd9, 0 0 110px #fc78ff;
+    }
+    85% {
+      opacity: 1;
+      text-shadow: 0 0 30px #2400ff, 0 0 60px #7e2bd9, 0 0 110px #fc78ff;
+    }
+    85.1% {
+      opacity: 0;
+      text-shadow: none;
+    }
+    86% {
+      opacity: 0;
+      text-shadow: none;
+    }
+    86.1% {
+      opacity: 1;
+      text-shadow: 0 0 30px #2400ff, 0 0 60px #7e2bd9, 0 0 110px #fc78ff;
+    }
+    100% {
+      opacity: 1;
+      text-shadow: 0 0 30px #2400ff, 0 0 60px #7e2bd9, 0 0 110px #fc78ff;
+    }
+  }
+  
+  .text-flicker-in-glow {
+      -webkit-animation: text-flicker-in-glow 4s linear both;
+              animation: text-flicker-in-glow 4s linear both;
+  }
+
+  @keyframes shake-top {
+    0%,
+    100% {
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg);
+      -webkit-transform-origin: 50% 0;
+              transform-origin: 50% 0;
+    }
+    10% {
+      -webkit-transform: rotate(2deg);
+              transform: rotate(2deg);
+    }
+    20%,
+    40%,
+    60% {
+      -webkit-transform: rotate(-4deg);
+              transform: rotate(-4deg);
+    }
+    30%,
+    50%,
+    70% {
+      -webkit-transform: rotate(4deg);
+              transform: rotate(4deg);
+    }
+    80% {
+      -webkit-transform: rotate(-2deg);
+              transform: rotate(-2deg);
+    }
+    90% {
+      -webkit-transform: rotate(2deg);
+              transform: rotate(2deg);
+    }
+  }
+  
+  .shake-top {
+      -webkit-animation: shake-top 2s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+              animation: shake-top 2s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+  }  
