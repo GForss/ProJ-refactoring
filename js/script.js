@@ -6,7 +6,7 @@ function trackScroll() {
   let offset = window.pageYOffset;
   // let coords = document.documentElement.clientHeight;
 
-  if (offset > 500) {
+  if (offset > 50) {
     goTopBtn.classList.add("scroll__button_show");
   } else {
     goTopBtn.classList.remove("scroll__button_show");
