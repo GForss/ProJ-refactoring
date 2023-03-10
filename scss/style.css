@@ -154,6 +154,21 @@
   animation: shake-top 2s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite both;
 }
 
+@keyframes pulsate-bck {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.pulsate-bck {
+  animation: pulsate-bck 5s linear infinite both;
+}
+
 @font-face {
   font-family: NasalizationRg-Regular; /* Гарнитура шрифта */
   src: url(../fonts/NasalizationRg-Regular.woff2); /* Путь к файлу со шрифтом */
